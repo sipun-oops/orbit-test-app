@@ -5,7 +5,7 @@
 import socket
 from flask import Flask, jsonify
 
-VERSION = "1.0.0"  # later: change this, push, redeploy -> the new version shows at the same URL
+VERSION = "2.0.0"  # later: change this, push, redeploy -> the new version shows at the same URL
 
 app = Flask(__name__)
 
